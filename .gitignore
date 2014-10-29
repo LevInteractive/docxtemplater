@@ -29,5 +29,4 @@ tags
 *.spec.map
 *.log
 /js
-/build
 /browser
