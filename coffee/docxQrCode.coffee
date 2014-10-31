@@ -4,7 +4,7 @@ DocXTemplater=require('./docxTemplater')
 vm=require('vm')
 JSZip=require('jszip')
 
-QrCode=require('qrcode-reader')
+QrCode=require('jsqrcode')
 
 module.exports= class DocxQrCode
 	constructor:(imageData, @xmlTemplater,@imgName="",@num,@callback)->
