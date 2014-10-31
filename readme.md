@@ -1,3 +1,9 @@
+# Standalone Version:
+
+This version contains a build directory with a compiled standalone library: `browserify -s DocxGen -r './js/docxgen.js' > build/docxgen.js`
+
+`qrcode-reader` was also updated to a more up-to-date commonjs version: `jsqrcode`
+
 # docxtemplater
 
 You can now use the v1 package (which is still in beta and may change). See [here for the new readme](https://github.com/edi9999/docxtemplater/tree/1.x)
